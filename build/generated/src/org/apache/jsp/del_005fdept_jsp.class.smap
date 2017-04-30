@@ -1,0 +1,20 @@
+SMAP
+del_005fdept_jsp.java
+JSP
+*S JSP
+*F
++ 0 del_dept.jsp
+del_dept.jsp
++ 1 connect.jsp
+connect.jsp
+*L
+5:52
+1#1,12:53
+12:12
+12,2:65
+14,7:68
+20,4:75
+6#0,10:78
+16,8:89
+23,4:97
+*E

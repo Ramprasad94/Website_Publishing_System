@@ -1,0 +1,138 @@
+ .x{
+        color:black;
+    font-size:25px;
+    font-family:COMIC SANS MS;
+    
+     }
+    .x:hover{
+        
+        color:whitesmoke;
+    font-size:25px;
+    font-family:COMIC SANS MS;
+        }
+    
+     
+    .panel {
+position: absolute;
+top: 120px;
+left: 160px;
+display: none;
+background: ;
+border:0px solid ;
+-moz-border-radius-topright: 20px;
+-webkit-border-top-right-radius: 20px;
+-moz-border-radius-bottomright: 20px;
+-webkit-border-bottom-right-radius: 20px;
+-moz-border-radius-topleft: 20px;
+-webkit-border-top-left-radius: 20px;
+-moz-border-radius-bottomleft: 20px;
+-webkit-border-bottom-left-radius: 20px;
+width: auto;
+height: auto;
+padding: 10px 30px 30px 30px;
+filter: alpha(opacity=99);
+opacity: .99;
+overflow: hidden;    }
+
+.panel p{
+margin: 0 0 15px 0;
+padding: 0;
+}
+
+.panel a, .panel a:visited{
+margin: 0;
+padding: 0;
+color: white;
+text-decoration: none;
+border-bottom: 1px solid #9FC54E;
+}
+
+.panel a:hover, .panel a:visited:hover{
+margin: 0;
+padding: 0;
+color: white;
+text-decoration: none;
+border-bottom: 1px solid #ffffff;
+
+}
+
+a.trigger{
+position: absolute;
+text-decoration: none;
+top: 120px; left: 0;
+font-size: 16px;
+letter-spacing:1px;
+font-family: verdana, helvetica, arial, sans-serif;
+color:#fff;
+padding: 20px 40px 20px 15px;
+font-weight: 700;
+background:#333333 url(Images/plus.png) 85% 55% no-repeat;
+border:1px solid #444444;
+-moz-border-radius-topright: 20px;
+-webkit-border-top-right-radius: 20px;
+-moz-border-radius-bottomright: 20px;
+-webkit-border-bottom-right-radius: 20px;
+-moz-border-radius-bottomleft: 0px;
+-webkit-border-bottom-left-radius: 0px;
+display: block;
+}
+
+a.trigger:hover{
+position: absolute;
+text-decoration: none;
+top: 120px; left: 1250;
+font-size: 16px;
+letter-spacing:1px;
+font-family: verdana, helvetica, arial, sans-serif;
+color:orange;
+padding: 20px 40px 20px 20px;
+font-weight: 700;
+background:#222222 url(Images/plus.png) 85% 55% no-repeat;
+border:1px solid #444444;
+-moz-border-radius-topleft: 40px;
+-webkit-border-top-left-radius: 40px;
+-moz-border-radius-bottomleft: 40px;
+-webkit-border-bottom-left-radius: 40px;
+-moz-border-radius-bottomright: 40px;
+-webkit-border-bottom-right-radius: 40px;
+-moz-border-radius-topright: 40px;
+-webkit-border-top-right-radius: 40px;
+
+
+display: block;
+}
+
+a.active.trigger {
+background:#222222 url(Images/minus.png) 85% 55% no-repeat;
+}
+
+.columns{
+clear: both;
+width: 330px;
+padding: 0 0 20px 0;
+line-height: 22px;
+}
+
+.colleft{
+float: left;
+width: 130px;
+line-height: 22px;
+}
+
+.colright{
+float: right;
+width: 130px;
+line-height: 22px;
+}
+
+ul{
+padding: 0;
+margin: 0;
+list-style-type: none;
+}
+
+ul li{
+padding: 0;
+margin: 0;
+list-style-type: none;
+}

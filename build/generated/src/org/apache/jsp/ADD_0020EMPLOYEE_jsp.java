@@ -1,0 +1,347 @@
+package org.apache.jsp;
+
+import javax.servlet.*;
+import javax.servlet.http.*;
+import javax.servlet.jsp.*;
+
+public final class ADD_0020EMPLOYEE_jsp extends org.apache.jasper.runtime.HttpJspBase
+    implements org.apache.jasper.runtime.JspSourceDependent {
+
+  private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
+
+  private static java.util.List<String> _jspx_dependants;
+
+  private org.glassfish.jsp.api.ResourceInjector _jspx_resourceInjector;
+
+  public java.util.List<String> getDependants() {
+    return _jspx_dependants;
+  }
+
+  public void _jspService(HttpServletRequest request, HttpServletResponse response)
+        throws java.io.IOException, ServletException {
+
+    PageContext pageContext = null;
+    HttpSession session = null;
+    ServletContext application = null;
+    ServletConfig config = null;
+    JspWriter out = null;
+    Object page = this;
+    JspWriter _jspx_out = null;
+    PageContext _jspx_page_context = null;
+
+    try {
+      response.setContentType("text/html;charset=UTF-8");
+      pageContext = _jspxFactory.getPageContext(this, request, response,
+      			null, true, 8192, true);
+      _jspx_page_context = pageContext;
+      application = pageContext.getServletContext();
+      config = pageContext.getServletConfig();
+      session = pageContext.getSession();
+      out = pageContext.getOut();
+      _jspx_out = out;
+      _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
+
+      out.write("\n");
+      out.write("\n");
+      out.write("<!DOCTYPE html>\n");
+      out.write("<html>\n");
+      out.write("    <head>\n");
+      out.write("      ");
+ 
+            String ses_id =(String)session.getAttribute("id");
+               
+         
+ 
+      out.write(" \n");
+      out.write("        \n");
+      out.write("        \n");
+      out.write("        <LINK REL=StyleSheet HREF=\"panel_style.css\" TYPE=\"text/css\" MEDIA=screen>\n");
+      out.write("<LINK REL=StyleSheet HREF=\"panel_buttons_style.css\" TYPE=\"text/css\" MEDIA=screen>\n");
+      out.write("        <style type=\"text/css\">\n");
+      out.write("\n");
+      out.write("/* Gradient 2 */\n");
+      out.write(".tb7 {\n");
+      out.write("\twidth: 221px;\n");
+      out.write("\tbackground: transparent url('bg.jpg') no-repeat;\n");
+      out.write("\tcolor : #747862;\n");
+      out.write("\theight:20px;\n");
+      out.write("\tborder:0;\n");
+      out.write("\tpadding:4px 8px;\n");
+      out.write("\tmargin-bottom:0px;\n");
+      out.write("}\n");
+      out.write(".tb8 {\n");
+      out.write("\twidth: 75px;\n");
+      out.write("\tbackground: transparent url('bg.jpg') no-repeat;\n");
+      out.write("\tcolor : #747862;\n");
+      out.write("\theight:22px;\n");
+      out.write("\tborder:0;\n");
+      out.write("\tpadding:4px 8px;\n");
+      out.write("\tmargin-bottom:0px;\n");
+      out.write("}\n");
+      out.write("        \n");
+      out.write(".tb9 {\n");
+      out.write("\twidth: 221px;\n");
+      out.write("\tbackground: transparent url('bg.jpg') no-repeat;\n");
+      out.write("\tcolor : #747862;\n");
+      out.write("\theight:100px;\n");
+      out.write("\tborder:0;\n");
+      out.write("\tpadding:4px 8px;\n");
+      out.write("\tmargin-bottom:0px;\n");
+      out.write("background-size: 226px 110px\n");
+      out.write("}\n");
+      out.write("    \n");
+      out.write("    \n");
+      out.write(".text1{\n");
+      out.write("    text-shadow: 1px 2px 2px gray;\n");
+      out.write("    color: black;\n");
+      out.write("    font-family:stencil;\n");
+      out.write("     font-size:25px;  \n");
+      out.write("    }\n");
+      out.write("    .text1:hover{\n");
+      out.write("        color:lightgray;\n");
+      out.write("        -webkit-stroke-width: 1.3px;\n");
+      out.write("    -webkit-stroke-color: white;\n");
+      out.write("    -webkit-fill-color: white;\n");
+      out.write("    text-shadow: 1px 3px 3px black;\n");
+      out.write("    -webkit-transition: width 0.3s; /*Safari & Chrome*/\n");
+      out.write("    transition: width 0.3s;\n");
+      out.write("    -moz-transition: width 0.3s; /* Firefox 4 */\n");
+      out.write("    -o-transition: width 0.3s; /* Opera */\n");
+      out.write("               \n");
+      out.write("    }\n");
+      out.write("\n");
+      out.write("    input[type=submit] {padding:10px 25px; background:whitesmoke; border:1 none;\n");
+      out.write("    cursor:pointer;\n");
+      out.write("    -webkit-border-radius: 5px;\n");
+      out.write("    border-radius: 10px; }\n");
+      out.write("    \n");
+      out.write("    input[type=submit]:hover {padding:10px 25px; background:lightgray; border:1 none;\n");
+      out.write("    cursor:pointer;\n");
+      out.write("    -webkit-border-radius: 5px;\n");
+      out.write("    border-radius: 10px; }\n");
+      out.write("   \n");
+      out.write("\n");
+      out.write("    input[type=reset] {padding:10px 25px; background:whitesmoke; border:1 none;\n");
+      out.write("    cursor:pointer;\n");
+      out.write("    border-radius: 10px; }\n");
+      out.write("    \n");
+      out.write("     input[type=reset]:hover {padding:10px 25px; background:lightgray; border:1 none;\n");
+      out.write("    cursor:pointer;\n");
+      out.write("    -webkit-border-radius: 5px;\n");
+      out.write("    border-radius: 10px; }\n");
+      out.write("\n");
+      out.write("        input[type=radio] {\n");
+      out.write("    display:none;\n");
+      out.write("}\n");
+      out.write(" \n");
+      out.write("input[type=radio] + label {\n");
+      out.write("    display:inline-block;\n");
+      out.write("    margin:-2px;\n");
+      out.write("    padding: 4px 12px;\n");
+      out.write("    margin-bottom: 0;\n");
+      out.write("    font-size: 14px;\n");
+      out.write("    line-height: 20px;\n");
+      out.write("    color: #333;\n");
+      out.write("    text-align: center;\n");
+      out.write("    text-shadow: 0 1px 1px rgba(255,255,255,0.75);\n");
+      out.write("    vertical-align: middle;\n");
+      out.write("    cursor: pointer;\n");
+      out.write("    background-color: #f5f5f5;\n");
+      out.write("    background-image: -moz-linear-gradient(top,#fff,#e6e6e6);\n");
+      out.write("    background-image: -webkit-gradient(linear,0 0,0 100%,from(#fff),to(#e6e6e6));\n");
+      out.write("    background-image: -webkit-linear-gradient(top,#fff,#e6e6e6);\n");
+      out.write("    background-image: -o-linear-gradient(top,#fff,#e6e6e6);\n");
+      out.write("    background-image: linear-gradient(to bottom,#fff,#e6e6e6);\n");
+      out.write("    background-repeat: repeat-x;\n");
+      out.write("    border: 1px solid #ccc;\n");
+      out.write("    border-color: #e6e6e6 #e6e6e6 #bfbfbf;\n");
+      out.write("    border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);\n");
+      out.write("    border-bottom-color: #b3b3b3;\n");
+      out.write("    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff',endColorstr='#ffe6e6e6',GradientType=0);\n");
+      out.write("    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);\n");
+      out.write("    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);\n");
+      out.write("    -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);\n");
+      out.write("    box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);\n");
+      out.write("}\n");
+      out.write(" \n");
+      out.write("input[type=radio]:checked + label {\n");
+      out.write("       background-image: none;\n");
+      out.write("    outline: 0;\n");
+      out.write("    -webkit-box-shadow: inset 0 2px 4px rgba(0,0,0,0.15),0 1px 2px rgba(0,0,0,0.05);\n");
+      out.write("    -moz-box-shadow: inset 0 2px 4px rgba(0,0,0,0.15),0 1px 2px rgba(0,0,0,0.05);\n");
+      out.write("    box-shadow: inset 0 2px 4px rgba(0,0,0,0.15),0 1px 2px rgba(0,0,0,0.05);\n");
+      out.write("        background-color:#e0e0e0;\n");
+      out.write("}\n");
+      out.write("\n");
+      out.write("        </style>\n");
+      out.write("        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n");
+      out.write("        <title>ADD EMPLOYEE</title>\n");
+      out.write("    <link rel=\"stylesheet\" type=\"text/css\" href=\"template.css\">\n");
+      out.write(" <script type=\"text/javascript\" src=\"js\\jquery-2.1.1.js\"></script>\n");
+      out.write("    <script type=\"text/javascript\">\n");
+      out.write("$(document).ready(function(){\n");
+      out.write("\t$(\".trigger\").click(function(){\n");
+      out.write("\t\t$(\".panel\").toggle(\"fast\");\n");
+      out.write("\t\t$(this).toggleClass(\"active\");\n");
+      out.write("\t\treturn false;\n");
+      out.write("\t});\n");
+      out.write("});\n");
+      out.write("</script>\n");
+      out.write("\n");
+      out.write("    </head>\n");
+      out.write("            \n");
+      out.write("    <body style=\"background-image:url('1593927.jpg'); background-size: 1400px 1000px\">\n");
+      out.write("       <center>\n");
+      out.write("        <div>\n");
+      out.write("             <img src=\"pic.png\" width=\"1366\" height=\"95\" alt=\"Untitled\"/>\n");
+      out.write("             </div></center>\n");
+      out.write("    <center> <img style=\"position:absolute; left: 70px; top: 160px;\"src=\"Coffee-break-icon.png\" width=\"450\" height=\"450\" alt=\"Coffee-break-icon\" align=\"left\"/>\n");
+      out.write("                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src=\"cooltext1628910986.png\" onmouseover=\"this.src='cooltext1628910986MouseOver.png';\" onmouseout=\"this.src='cooltext1628910986.png';\" />;\n");
+      out.write("        \n");
+      out.write("        ");
+      out.write("\n");
+      out.write("        <form action=\"empaction.jsp\" method=\"post\" name=\"EMPLOYEE REGISTRATION\">\n");
+      out.write("            <table border=\"0\" align=\"right\" width=\"700\" >\n");
+      out.write("                <thead> \n");
+      out.write("                    <tr>\n");
+      out.write("                        <th></th>\n");
+      out.write("                        <th></th>\n");
+      out.write("                        <th></th>\n");
+      out.write("                    </tr>\n");
+      out.write("                </thead>\n");
+      out.write("                <tbody>\n");
+      out.write("                    <tr>\n");
+      out.write("                        <td style=\"font-family: Agency FB;text-shadow: 3px 3px 3px none;font-size: 27px\"class=\"text1\"><b>NAME<b></td>\n");
+      out.write("                        <td><input class=\"tb7\" type=\"text\" placeholder=\"Enter Name \" name=\"NAME\" value=\"\" size=\"35\" required pattern=\"[a-zA-Z]+\" /></td>\n");
+      out.write("                        <td></td>\n");
+      out.write("                    </tr>\n");
+      out.write("                    <tr>\n");
+      out.write("                        <td style=\"font-family: Agency FB;text-shadow: 3px 3px 3px none;font-size: 27px\" class=\"text1\"><b>EMPLOYEE ID</td>\n");
+      out.write("                        <td><input class=\"tb7\"  type=\"text\" placeholder=\"Enter Employee ID \" name=\"EMPLOYEE ID\" value=\"\" required=\"\" size=\"35\" required=\"\" /></td>\n");
+      out.write("                        <td></td>\n");
+      out.write("                    </tr>\n");
+      out.write("                    <tr>\n");
+      out.write("                        <td style=\"font-family: Agency FB;text-shadow: 3px 3px 3px none;font-size: 27px\" class=\"text1\"><b>DATE OF BIRTH</td>\n");
+      out.write("                        <td><input type=\"date\" name=\"DATE\" class=\"tb7\" required=\"\"/></td>\n");
+      out.write("                        <td></td>\n");
+      out.write("                    </tr>\n");
+      out.write("                    <tr>\n");
+      out.write("                        <td style=\"font-family: Agency FB;text-shadow: 3px 3px 3px none;font-size: 27px\" class=\"text1\"><b>ADDRESS</td>\n");
+      out.write("                        <td><textarea name=\"ADDRESS\"  rows=\"5\" cols=\"27\" placeholder=\"Enter Address\" class=\"tb9\" required=\"\" required pattern=\"[a-zA-Z]+\" ></textarea></td>\n");
+      out.write("                        <td></td>\n");
+      out.write("                    </tr>\n");
+      out.write("                    <tr>\n");
+      out.write("                        <td style=\"font-family: Agency FB;text-shadow: 3px 3px 3px none;font-size: 27px\" class=\"text1\"><b>PHONE NUMBER</td>\n");
+      out.write("                        <td><input type=\"tel\" name=\"PHONE NO\" value=\"\"  size=\"35\" placeholder=\"Enter Phone Number\" class=\"tb7\" required=\"\" min=\"8\" max=\"13\"/></td>\n");
+      out.write("                        <td></td>\n");
+      out.write("                    </tr>\n");
+      out.write("                    <tr>\n");
+      out.write("                        <td style=\"font-family: Agency FB;text-shadow: 3px 3px 3px none;font-size: 27px\" class=\"text1\"><b>GENDER</td>\n");
+      out.write("                        <td> <input type=\"radio\" id=\"radio1\" name=\"GENDER\" value=\"MALE\" >\n");
+      out.write("                      <label for=\"radio1\">Male</label><input type=\"radio\" id=\"radio2\" name=\"GENDER\" value=\"FEMALE\">\n");
+      out.write("                      <label for=\"radio2\">Female</label></td>\n");
+      out.write("                        <td></td>\n");
+      out.write("                    </tr>\n");
+      out.write("                    <tr>\n");
+      out.write("                        <td style=\"font-family: Agency FB;text-shadow: 3px 3px 3px none;font-size: 27px\" class=\"text1\"><b>DEPARTMENT</td>\n");
+      out.write("                        <td><input type=\"text\" name=\"DEPARTMENT\" value=\"\" placeholder=\"Enter Department\" size=\"35\" class=\"tb7\" required=\"\" required pattern=\"[a-zA-Z]+\"/></td>\n");
+      out.write("                        <td></td>\n");
+      out.write("                    </tr>\n");
+      out.write("                     <tr>\n");
+      out.write("                        <td style=\"font-family: Agency FB;text-shadow: 3px 3px 3px none;font-size: 27px\" class=\"text1\"><b>DEPARTMENT ID</td>\n");
+      out.write("                        <td><input type=\"text\" name=\"DEPARTMENT ID\" placeholder=\"Enter Department ID\" value=\"\" size=\"35\" class=\"tb7\" required pattern=\"[0-9]{13}\"/></td>\n");
+      out.write("                        <td></td>\n");
+      out.write("                    </tr>\n");
+      out.write("                     <tr>\n");
+      out.write("                        <td style=\"font-family: Agency FB;text-shadow: 3px 3px 3px none;font-size: 27px\" class=\"text1\"><b>UPLOAD PHOTO</td>\n");
+      out.write("                        <td><input type=\"FILE\" name=\"UPLOAD PHOTO\" value=\"\" size=\"35\" class=\"tb7\" required=\"\" /></td>\n");
+      out.write("                        <td></td>\n");
+      out.write("                    </tr>\n");
+      out.write("                                         \n");
+      out.write("                      <tr>\n");
+      out.write("                        <td style=\"font-family: Agency FB;text-shadow: 3px 3px 3px none;font-size: 27px\" class=\"text1\"><b>EMAIL</td>\n");
+      out.write("                        <td><input type=\"EMAIL\" name=\"EMAIL\" value=\"\" placeholder=\"Enter email address\" size=\"35\" class=\"tb7\" required=\"\"/></td>\n");
+      out.write("                        <td></td>\n");
+      out.write("                    </tr>  \n");
+      out.write("                    <tr>                          \n");
+      out.write("                        <td style=\"font-family: Agency FB;text-shadow: 3px 3px 3px none;font-size: 27px\" class=\"text1\"><b>SET PASSWORD</td>\n");
+      out.write("                        <td><input type=\"PASSWORD\" name=\"PASSWORD\" value=\"\" size=\"35\" placeholder=\"Enter password\" class=\"tb7\" required=\"\"/></td>\n");
+      out.write("                        <td></td>\n");
+      out.write("                    </tr>         \n");
+      out.write("                     <tr>\n");
+      out.write("                        <td style=\"font-family: Agency FB;text-shadow: 3px 3px 3px none;font-size: 27px\" class=\"text1\"><b>CONFIRM PASSWORD</td>\n");
+      out.write("                        <td><input type=\"PASSWORD\" name=\"CONFIRM PASSWORD\" value=\"\" placeholder=\"Re-enter your password\" size=\"35\" class=\"tb7\" required=\"\"/></td>\n");
+      out.write("                        <td></td>\n");
+      out.write("                    </tr>\n");
+      out.write("                    <tr>\n");
+      out.write("                        <td></td>\n");
+      out.write("                      \n");
+      out.write("                     ");
+      out.write("\n");
+      out.write("                    </tr>  \n");
+      out.write("\n");
+      out.write("                    <tr>\n");
+      out.write("                  <td></td>\n");
+      out.write("                        <td><input style=\"font-family: Agency FB;text-shadow: 3px 3px 3px none;font-size: 27px\" class=\"text1\" type=\"submit\" name=\"submit\" value=\"Submit\" size=\"35\" /><input style=\"font-family: Agency FB;text-shadow: 3px 3px 3px none;font-size: 27px\" class=\"text1\" type=\"reset\" name=\"reset\" value=\"Reset\" size=\"35\" /></td>\n");
+      out.write("                    </tr>             \n");
+      out.write("</tbody>\n");
+      out.write("            </table>\n");
+      out.write("\n");
+      out.write("        </form>\n");
+      out.write("        \n");
+      out.write("        <div class=\"panel\" >\n");
+      out.write("\t<h3 style=\"color:white;\"></h3>\n");
+      out.write("\t<p class=\"x\"><b>Hello ");
+      out.print(ses_id);
+      out.write("!</b></p>\n");
+      out.write("\t<img src=\"Images/IMG_20140412_145517.jpg\">\n");
+      out.write("<div style=\"clear:both;\"></div>\n");
+      out.write("<div class=\"columns\">\n");
+      out.write("\t<div class=\"colleft\">\n");
+      out.write("\t<ul>\n");
+      out.write("            <li><a style=\"font-family:Gloucester MT Extra Condensed;font-size:30px\" href=\"After Admin Login.jsp\" class=\"push_button red\">Home</a></li>\n");
+      out.write("\t</ul>\n");
+      out.write("        </div>\n");
+      out.write("\n");
+      out.write("\t<div class=\"colright\">\n");
+      out.write("\t\t<ul>\n");
+      out.write("                   <li><a style=\"font-family:Gloucester MT Extra Condensed;font-size:30px\" href=\"logout_action.jsp\" class=\"push_button blue\">Logout</a></li>\n");
+      out.write("\t\t</ul>\n");
+      out.write("\t</div>\n");
+      out.write("</div>\n");
+      out.write("<div style=\"clear:both;\"></div>\n");
+      out.write("\n");
+      out.write("</div>\n");
+      out.write("<a class=\"trigger\" style=\"font-family:Berlin Sans FB Demi;FONT-SIZE:20px\" href=\"#\" title=\"Click here for Navigation!\">NAVIGATE</a>\n");
+      out.write("    \n");
+      out.write("        \n");
+      out.write("        \n");
+      out.write("    \n");
+      out.write("    \n");
+      out.write("     ");
+  if(ses_id==null)
+          {  
+          response.sendRedirect("home_2.jsp");
+          }   
+      out.write("\n");
+      out.write("    \n");
+      out.write("    \n");
+      out.write("    \n");
+      out.write("    \n");
+      out.write("    \n");
+      out.write("    \n");
+      out.write("    </body>\n");
+      out.write("</html>\n");
+    } catch (Throwable t) {
+      if (!(t instanceof SkipPageException)){
+        out = _jspx_out;
+        if (out != null && out.getBufferSize() != 0)
+          out.clearBuffer();
+        if (_jspx_page_context != null) _jspx_page_context.handlePageException(t);
+        else throw new ServletException(t);
+      }
+    } finally {
+      _jspxFactory.releasePageContext(_jspx_page_context);
+    }
+  }
+}

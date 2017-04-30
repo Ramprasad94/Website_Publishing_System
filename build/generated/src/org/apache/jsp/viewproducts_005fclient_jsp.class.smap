@@ -1,0 +1,28 @@
+SMAP
+viewproducts_005fclient_jsp.java
+JSP
+*S JSP
+*F
++ 0 viewproducts_client.jsp
+viewproducts_client.jsp
++ 1 connect.jsp
+connect.jsp
+*L
+5:52
+1#1,12:53
+12:12
+12,2:65
+14,7:68
+20,4:75
+6#0,8:78
+14,2:87
+15,11:89
+26,5:101
+30,2:106
+32,4:108,3
+36,2:120
+38:122,3
+39:125
+39,4:126
+42,3:130
+*E

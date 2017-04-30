@@ -1,0 +1,29 @@
+SMAP
+Client_005fRegistration_005fForm_jsp.java
+JSP
+*S JSP
+*F
++ 0 connect.jsp
+connect.jsp
++ 1 Client_Registration_Form.jsp
+Client_Registration_Form.jsp
+*L
+1,12:52
+12:12
+12,2:64
+14,7:67
+20,4:74
+5#1,130:77
+135:207,2
+136,45:209
+181,7:255
+187,3:262
+189,9:265
+197:274
+198:275,3
+199:278
+199,2:279
+200,25:281
+225:306,2
+226,25:308
+*E

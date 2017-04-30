@@ -1,0 +1,64 @@
+ 
+body{
+    background-position: fixed;
+    background-image: url("i.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+background-size: 1270px 675px;
+
+margin:0;
+padding:0;
+}
+
+a{
+font-family:COMIC SANS MS;
+font-size:20px;
+}
+#nav1{
+
+height:300px;
+background-color:#dddddd;
+filter:alpha(opacity=60);
+opacity:0.8;
+position:absolute;
+top:10px;
+right:0;
+
+}
+
+#nav{
+
+height:150px;
+background-color:#dddddd;
+filter:alpha(opacity=60);
+opacity:0.8;
+
+}
+
+#right{
+position:absolute;
+top:0px;
+right:0;
+}
+
+.gbt{
+display:inline-block;
+line-height:26px;
+}
+
+.gbtc{
+margin:0;
+padding:0;
+}
+
+.gbts{
+padding:px;
+text-shadow: 5px 5px 10px grey;
+
+}
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+SMAP
+viewads_005ffor_005fclient_jsp.java
+JSP
+*S JSP
+*F
++ 0 viewads_for_client.jsp
+viewads_for_client.jsp
++ 1 connect.jsp
+connect.jsp
+*L
+5:52
+1#1,12:53
+12:12
+12,2:65
+14,7:68
+20,4:75
+6#0,9:78
+15,2:88
+16,15:90
+31,5:106
+35,2:111
+37,5:113,3
+42,2:128
+44:130,3
+45:133
+45,4:134
+48,8:138
+*E

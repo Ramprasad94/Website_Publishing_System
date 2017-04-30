@@ -1,0 +1,20 @@
+SMAP
+update_005fproduct_005faction_jsp.java
+JSP
+*S JSP
+*F
++ 0 update_product_action.jsp
+update_product_action.jsp
++ 1 connect.jsp
+connect.jsp
+*L
+5:52
+1#1,12:53
+12:12
+12,2:65
+14,7:68
+20,4:75
+6#0,10:78
+16,21:89
+36,4:110
+*E

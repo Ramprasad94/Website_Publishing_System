@@ -1,0 +1,26 @@
+SMAP
+updateproducts_jsp.java
+JSP
+*S JSP
+*F
++ 0 updateproducts.jsp
+updateproducts.jsp
++ 1 connect.jsp
+connect.jsp
+*L
+5:52
+1#1,12:53
+12:12
+12,2:65
+14,7:68
+20,4:75
+6#0,121:78
+127,5:200
+131,2:205
+133,5:207,3
+138,2:222
+140:224,3
+141:227
+142:228,3
+143,3:231
+*E

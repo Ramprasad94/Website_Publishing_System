@@ -1,0 +1,24 @@
+SMAP
+update_0020events_jsp.java
+JSP
+*S JSP
+*F
++ 0 update events.jsp
+update events.jsp
++ 1 connect.jsp
+connect.jsp
+*L
+5:52
+1#1,12:53
+12:12
+12,2:65
+14,7:68
+20,4:75
+6#0,118:78
+124,5:197
+128,2:202
+130,5:204,3
+135:219
+136:220,3
+137,3:223
+*E
